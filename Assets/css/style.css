@@ -5,15 +5,21 @@
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(93, 114, 117);
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(25, 73, 128);
-    color: rgb(236, 247, 247);
+    color: rgb(250, 253, 253);
+    position: relative;
+    z-index: 1;
 
+}
+
+.nav {
+    
 }
 
 .header h1 {
@@ -37,3 +43,22 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
+.banner {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me {
+    background-color: rgb(61, 83, 182);
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
