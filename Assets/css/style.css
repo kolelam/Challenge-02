@@ -55,8 +55,6 @@ body {
 }
 
 #about-me {
-    background-color: rgb(25, 73, 128);
-    text-decoration: wavy;
     font-size: 30px;
 }
 
@@ -65,17 +63,31 @@ body {
     display: inline-block;
     margin-left: 20px;
     font-size: 28px;
-    line-height: 50px;
+    line-height: 80px;
+    background-color: rgb(25, 73, 128);
 }
 
-#projects {
-
+.projects {
+    font-size: 30px;
 }
 
-#image {
+#profile {
     float: right;
     width: 30%;
     height: 800px;
     position: relative;
     margin-left: auto;
+}
+
+#prework {
+    float: center;
+    width: 80%;
+    height: 800px;
+    position: relative;
+    margin-left: 480px;
+
+}
+
+.resume {
+    
 }
