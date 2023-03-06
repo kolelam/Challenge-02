@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(93, 114, 117);
+    background-color: rgb(228, 235, 243);
 }
 
 .header {
@@ -13,13 +13,11 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(25, 73, 128);
     color: rgb(250, 253, 253);
-    position: relative;
     z-index: 1;
+    padding: 10px;
+    position: relative;
+    top: 0;
 
-}
-
-.nav {
-    
 }
 
 .header h1 {
@@ -29,14 +27,18 @@ body {
 }
 
 .header div {
-    padding-top: 20px;
+    padding-top: 15px;
     margin-right: 20px;
     font-size: 20px;
     float: right;
 }
 
 .header div ul {
-    list-style-type: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #1a1a69;
 }
 
 .header div ul li {
@@ -52,13 +54,28 @@ body {
     background-position: center;
 }
 
-.about-me {
-    background-color: rgb(61, 83, 182);
+#about-me {
+    background-color: rgb(25, 73, 128);
+    text-decoration: wavy;
+    font-size: 30px;
 }
 
 .content {
-    width: 75%;
+    width: 98%;
     display: inline-block;
     margin-left: 20px;
+    font-size: 28px;
+    line-height: 50px;
 }
 
+#projects {
+
+}
+
+#image {
+    float: right;
+    width: 30%;
+    height: 800px;
+    position: relative;
+    margin-left: auto;
+}
